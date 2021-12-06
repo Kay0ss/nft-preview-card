@@ -2,6 +2,104 @@
   font-family: "Outfit", sans-serif;
 }
 
+body {
+  background-color: hsl(217, 54%, 11%);
+  height: 100vh;
+}
+
+.card {
+  background-color: hsl(216, 50%, 16%) !important;
+  border-radius: 18px !important;
+  margin: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.nft-img-top {
+  height: 100%;
+  width: 100%;
+  border-radius: 7px;
+}
+
+.nft-body {
+  padding: 20px;
+}
+
+.nft-title {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: hsl(0, 0%, 100%);
+  font-weight: 600;
+}
+
+.nft-text {
+  color: hsl(215, 51%, 70%);
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+.eth-logo {
+  margin-bottom: 3.5px;
+  margin-right: 5px;
+}
+
+.nft-price {
+  margin-top: auto;
+  color: hsl(178, 100%, 50%);
+  font-weight: 600;
+}
+
+.clock-icon {
+  margin-bottom: 3.5px;
+  margin-right: 5px;
+}
+
+.nft-expire {
+  margin-top: auto;
+  color: hsl(215, 51%, 70%);
+  font-weight: 400;
+}
+
+.purchase-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 30px;
+}
+
+hr {
+  border: 2px solid hsl(215, 51%, 70%);
+}
+
+.user-info {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center !important;
+}
+
+.user-image {
+  height: 13%;
+  width: 13%;
+  border-radius: 100px;
+  border: 1.5px solid hsl(0, 0%, 100%);
+  margin-right: 10px;
+}
+
+.creation-text {
+  color: hsl(215, 51%, 70%);
+  font-weight: 300;
+  margin-right: 3.5px;
+  margin-bottom: auto;
+  margin-top: auto;
+}
+
+.creation-user {
+  color: hsl(0, 0%, 100%);
+  font-weight: 300;
+  margin-bottom: auto;
+  margin-top: auto;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
