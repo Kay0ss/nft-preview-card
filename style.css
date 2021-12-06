@@ -4,7 +4,9 @@
 
 body {
   background-color: hsl(217, 54%, 11%);
-  height: 100vh;
+  height: 499px;
+  align-content: center;
+  margin-top: 15%;
 }
 
 .card {
@@ -25,11 +27,12 @@ body {
   padding: 20px;
 }
 
-.nft-title {
+h3 {
   margin-top: 20px;
   margin-bottom: 20px;
   color: hsl(0, 0%, 100%);
   font-weight: 600;
+  font-size: 18px;
 }
 
 .nft-text {
@@ -39,23 +42,30 @@ body {
 }
 
 .eth-logo {
-  margin-bottom: 3.5px;
+  /* margin-bottom: 3.5px; */
   margin-right: 5px;
+  margin-bottom: auto;
+  margin-top: auto;
 }
 
 .nft-price {
+  display: inherit;
   margin-top: auto;
+  margin-bottom: auto;
   color: hsl(178, 100%, 50%);
   font-weight: 600;
 }
 
 .clock-icon {
-  margin-bottom: 3.5px;
+  margin-top: auto;
+  margin-bottom: auto;
   margin-right: 5px;
 }
 
 .nft-expire {
+  display: inherit;
   margin-top: auto;
+  margin-bottom: auto;
   color: hsl(215, 51%, 70%);
   font-weight: 400;
 }
@@ -63,15 +73,17 @@ body {
 .purchase-info {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  /* align-items: center; */
   height: 30px;
 }
 
 hr {
-  border: 2px solid hsl(215, 51%, 70%);
+  border: 0.25px solid hsla(215, 52%, 70%, 0.105);
+  border-radius: 8px;
 }
 
 .user-info {
+  margin-top: 10px;
   display: flex;
   justify-content: flex-start;
   align-items: center !important;
@@ -103,6 +115,7 @@ hr {
 .attribution {
   font-size: 11px;
   text-align: center;
+  color: hsla(0, 0%, 100%, 0.29);
 }
 
 .attribution a {
