@@ -120,6 +120,7 @@ h3 {
   justify-content: space-between;
   /* align-items: center; */
   height: 30px;
+  margin-bottom: 20px;
 }
 
 hr {
@@ -128,15 +129,15 @@ hr {
 }
 
 .user-info {
-  margin-top: 10px;
+  margin-top: 15px;
   display: flex;
   justify-content: flex-start;
   align-items: center !important;
 }
 
 .user-image {
-  height: 13%;
-  width: 13%;
+  height: 11%;
+  width: 11%;
   border-radius: 100px;
   border: 1.5px solid hsl(0, 0%, 100%);
   margin-right: 10px;
